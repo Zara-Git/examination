@@ -1,0 +1,34 @@
+#searchbar{
+   grid-area: searchbar;
+}
+.hotell-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "searchbar"
+    "main"
+    "footer";
+}
+#searchbar form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px auto;
+}
+#searchbar form .group-box{
+margin: 10px;
+font-family: "GillSans", "GillSansNova", "Times New Roman", serif !important;
+font-size: 12px !important;
+}
+#searchbar form .group-box select,#searchbar form .group-box input {
+  border: 2px solid #727272;
+  min-width: 200px;
+  min-height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+}
+main{
+   margin: auto;
+}
+
+
